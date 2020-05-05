@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>弹性布局</title>
+    <style>
+        #box {
+            display: flex;
+            flex-direction: row;
+            width: 600px;
+            height: 500px;
+            background-color: bisque;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .item {
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid tan;
+            background-color: blueviolet;
+            color: #ffffff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div class="item">首页</div>
+        <div class="item">热搜</div>
+        <div class="item">讨论</div>
+    </div>
+
+
+</body>
+
+</html>
